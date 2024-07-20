@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid white; */
+}
+body {
+  background-image: url("https://i.ibb.co/HtfMdJS/bg.webp");
+  margin: 0;
+  height: 110vh;
+}
+header {
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+.logobox {
+  display: inline-block;
+  color: white;
+  width: 124px;
+}
+.navbox {
+  display: inline-block;
+  width: 600px;
+  position: absolute;
+  right: 20px;
+}
+.navbox > a {
+  color: white;
+  text-decoration: none;
+  margin: 30px;
+}
+
+.navbox > a:hover {
+  color: chartreuse;
+  transition: all 0.5s;
+}
+#homie {
+  color: chartreuse;
+}
+
+.heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: chocolate;
+  font-size: 80px;
+  font-weight: 900;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  width: 600px;
+}
+.heading + h3 {
+  color: white;
+
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  width: 600px;
+}
+.heading + h3 + p {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 200;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  width: 600px;
+}
+.butn {
+  width: 120px;
+  padding: 15px;
+  position: relative;
+  left: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  top: 80px;
+  background-color: chocolate;
+  color: white;
+  transition: all 0.5s;
+}
+.butn:hover {
+  background-color: aliceblue;
+  color: aqua;
+}
+footer {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 80px;
+}
