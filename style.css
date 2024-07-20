@@ -3,6 +3,9 @@
   padding: 0;
   /* border: 2px solid white; */
 }
+::-webkit-scrollbar {
+  display: none;
+}
 body {
   background-image: url("https://i.ibb.co/HtfMdJS/bg.webp");
   margin: 0;
